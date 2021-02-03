@@ -1,0 +1,17 @@
+{
+  "author": "kruzchy",
+  "manifest_version": 2,
+  "name": "VTOP-Plus Final",
+  "version": "0.1.0",
+  "description": "Enhancements to VTOP",
+  "permissions": [
+    "storage",
+    "webRequest",
+    "https://vtop.vit.ac.in/vtop/*",
+    "tabs"
+  ],
+  "background": {
+    "scripts": ["background.js"],
+    "persistent": true
+  }
+}

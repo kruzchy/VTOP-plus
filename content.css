@@ -1,0 +1,22 @@
+.vtopPlusCog {
+    position: fixed;
+    height: 25px;
+    width: 25px;
+    top: 60px;
+    right: 60px;
+    cursor: pointer;
+    opacity: 0.7;
+    border-radius: 50%;
+}
+
+.vtopPlusCogSVG {
+
+}
+
+.vtopPlusCog:hover {
+    opacity: 0.9;
+}
+
+.vtopPlusCog:active {
+    opacity: 1;
+}
