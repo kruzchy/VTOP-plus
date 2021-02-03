@@ -1,0 +1,16 @@
+{
+  "name": "vtop-plus-final",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "build-css": "tailwindcss build src/tailwind-styles.css -o public/tailwind-styles.css"
+  },
+  "repository": "https://github.com/kruzchy/vtop-plus.git",
+  "author": "Kruzchy Klaperman <focus16gfx@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "autoprefixer": "^10.2.4",
+    "postcss": "^8.2.4",
+    "tailwindcss": "^2.0.2"
+  }
+}

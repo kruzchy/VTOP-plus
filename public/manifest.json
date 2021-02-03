@@ -5,9 +5,8 @@
   "version": "0.1.0",
   "description": "Enhancements to VTOP",
   "permissions": [
-    "storage",
     "webRequest",
-    "https://vtop.vit.ac.in/vtop/*",
+    "<all_urls>",
     "tabs"
   ],
   "background": {

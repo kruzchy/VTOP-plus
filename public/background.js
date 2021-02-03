@@ -49,7 +49,7 @@ chrome.webRequest.onCompleted.addListener( (details) => {
     if (semSelectOptionsMatch) {
         chrome.tabs.sendMessage(details.tabId, {
             actionName: "semesterSelection",
-            actionOptions: {...semSelectOptionsMatch, semesterId: 'VL20202105'},
+            actionOptions: {...semSelectOptionsMatch, semesterId: 'VL20202105'}, //VL20202105 for winter sem, 01 for fall
         });
     }
 

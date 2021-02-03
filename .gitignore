@@ -1,2 +1,4 @@
 .idea/
 private/
+node_modules
+yarn-error.log
