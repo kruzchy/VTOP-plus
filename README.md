@@ -7,5 +7,5 @@ A chrome extension to enhance the browsing experience of VIT University Online s
 - [x] Show cumulative marks for each course on `Marks` page
 - [x] Replace course code with course title on `Timetable` page
 - [ ] Modal Dashboard to toggle enhancements, change settings and to provide optional data
-- [ ] Simplified and Digital `Assignment Upload` page
+- [ ] Simplified `Digital Assignment Upload` page which provides more information with fewer navigation redirects
 - [ ] Widgets for homepage
