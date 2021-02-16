@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
-    "build-css": "tailwindcss build src/tailwind-styles.css -o public/tailwind-styles.css"
+    "build-css": "tailwindcss build src/tailwind-styles.css -o public/css/tailwind-styles.css"
   },
   "repository": "https://github.com/kruzchy/vtop-plus.git",
   "author": "Kruzchy Klaperman <focus16gfx@gmail.com>",

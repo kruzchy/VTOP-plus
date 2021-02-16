@@ -32,8 +32,8 @@ chrome.webRequest.onCompleted.addListener( (details) => {
 
             if (!response) {
 
-                chrome.tabs.executeScript(null, { file: "content.js" });
-                chrome.tabs.insertCSS(null, {file: "content.css"});
+                chrome.tabs.executeScript(null, { file: "js/content.js" });
+                chrome.tabs.insertCSS(null, {file: "/css/content.css"});
 
                 console.log(">>Injected!!")
             } else {
